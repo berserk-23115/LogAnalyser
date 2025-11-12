@@ -207,6 +207,9 @@ LogAnalyser_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 LogAnalyser_SOURCE_DIR:STATIC=/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser
 
+//The directory containing a CMake configuration file for Pcap.
+Pcap_DIR:PATH=Pcap_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries

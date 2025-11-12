@@ -1089,3 +1089,201 @@ events:
       LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
       TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
 ...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:5 (find_package)"
+    name: "Pcap"
+    configs:
+      -
+        filename: "PcapConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "pcap-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Pcap"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles/pkgRedirects/PcapConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles/pkgRedirects/pcap-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/PcapConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/pcap-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/PcapConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/pcap-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Cryptexes/App/usr/PcapConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Cryptexes/App/usr/pcap-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/PcapConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/pcap-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/PcapConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/pcap-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/anushkkumar/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/PcapConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/anushkkumar/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/pcap-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/PcapConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/pcap-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/PcapConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/pcap-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/PcapConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/pcap-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/Library/Frameworks/PcapConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Developer/CommandLineTools/Library/Frameworks/pcap-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/PcapConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/pcap-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/PcapConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/pcap-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/anushkkumar/Applications/PcapConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/anushkkumar/Applications/pcap-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/PcapConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/pcap-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anushkkumar/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+...
