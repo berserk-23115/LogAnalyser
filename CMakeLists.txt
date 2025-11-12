@@ -1,2 +1,6 @@
-cmake_minimum_required(VERSION 4.1)
+cmake_minimum_required(VERSION 3.10)
 project(LogAnalyser C)
+set(CMAKE_C_STANDARD 11)
+include_directories(include)
+add_executable(LogAnalyser src/main.c)
+set_target_properties(LogAnalyser PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)

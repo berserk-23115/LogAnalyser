@@ -1,0 +1,3 @@
+/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles/LogAnalyser.dir
+/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles/edit_cache.dir
+/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles/rebuild_cache.dir
