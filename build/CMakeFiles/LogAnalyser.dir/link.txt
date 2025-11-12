@@ -1,1 +1,1 @@
-/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/LogAnalyser.dir/src/main.c.o -o /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/bin/LogAnalyser
+/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/LogAnalyser.dir/src/main.c.o CMakeFiles/LogAnalyser.dir/src/help.c.o -o /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/bin/LogAnalyser

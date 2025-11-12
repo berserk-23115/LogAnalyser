@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/src/help.c" "CMakeFiles/LogAnalyser.dir/src/help.c.o" "gcc" "CMakeFiles/LogAnalyser.dir/src/help.c.o.d"
   "/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/src/main.c" "CMakeFiles/LogAnalyser.dir/src/main.c.o" "gcc" "CMakeFiles/LogAnalyser.dir/src/main.c.o.d"
   )
 

@@ -85,12 +85,12 @@ clean: CMakeFiles/LogAnalyser.dir/clean
 CMakeFiles/LogAnalyser.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogAnalyser.dir/build.make CMakeFiles/LogAnalyser.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogAnalyser.dir/build.make CMakeFiles/LogAnalyser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles --progress-num=1,2 "Built target LogAnalyser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles --progress-num=1,2,3 "Built target LogAnalyser"
 .PHONY : CMakeFiles/LogAnalyser.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LogAnalyser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LogAnalyser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles 0
 .PHONY : CMakeFiles/LogAnalyser.dir/rule
@@ -102,7 +102,7 @@ LogAnalyser: CMakeFiles/LogAnalyser.dir/rule
 # codegen rule for target.
 CMakeFiles/LogAnalyser.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogAnalyser.dir/build.make CMakeFiles/LogAnalyser.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles --progress-num=1,2 "Finished codegen for target LogAnalyser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target LogAnalyser"
 .PHONY : CMakeFiles/LogAnalyser.dir/codegen
 
 # clean rule for target.

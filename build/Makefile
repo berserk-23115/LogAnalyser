@@ -129,6 +129,30 @@ LogAnalyser/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogAnalyser.dir/build.make CMakeFiles/LogAnalyser.dir/build
 .PHONY : LogAnalyser/fast
 
+src/help.o: src/help.c.o
+.PHONY : src/help.o
+
+# target to build an object file
+src/help.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogAnalyser.dir/build.make CMakeFiles/LogAnalyser.dir/src/help.c.o
+.PHONY : src/help.c.o
+
+src/help.i: src/help.c.i
+.PHONY : src/help.i
+
+# target to preprocess a source file
+src/help.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogAnalyser.dir/build.make CMakeFiles/LogAnalyser.dir/src/help.c.i
+.PHONY : src/help.c.i
+
+src/help.s: src/help.c.s
+.PHONY : src/help.s
+
+# target to generate assembly for a file
+src/help.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogAnalyser.dir/build.make CMakeFiles/LogAnalyser.dir/src/help.c.s
+.PHONY : src/help.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LogAnalyser"
+	@echo "... src/help.o"
+	@echo "... src/help.i"
+	@echo "... src/help.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
