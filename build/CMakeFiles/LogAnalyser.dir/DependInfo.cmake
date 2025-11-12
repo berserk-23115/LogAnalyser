@@ -8,8 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/src/help.c" "CMakeFiles/LogAnalyser.dir/src/help.c.o" "gcc" "CMakeFiles/LogAnalyser.dir/src/help.c.o.d"
-  "/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/src/main.c" "CMakeFiles/LogAnalyser.dir/src/main.c.o" "gcc" "CMakeFiles/LogAnalyser.dir/src/main.c.o.d"
+  "/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/src/analyzers/analyzer.c" "CMakeFiles/loganalyser.dir/src/analyzers/analyzer.c.o" "gcc" "CMakeFiles/loganalyser.dir/src/analyzers/analyzer.c.o.d"
+  "/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/src/collectors/file_collector.c" "CMakeFiles/loganalyser.dir/src/collectors/file_collector.c.o" "gcc" "CMakeFiles/loganalyser.dir/src/collectors/file_collector.c.o.d"
+  "/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/src/core/config.c" "CMakeFiles/loganalyser.dir/src/core/config.c.o" "gcc" "CMakeFiles/loganalyser.dir/src/core/config.c.o.d"
+  "/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/src/help.c" "CMakeFiles/loganalyser.dir/src/help.c.o" "gcc" "CMakeFiles/loganalyser.dir/src/help.c.o.d"
+  "/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/src/main.c" "CMakeFiles/loganalyser.dir/src/main.c.o" "gcc" "CMakeFiles/loganalyser.dir/src/main.c.o.d"
+  "/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/src/parsers/log_parser.c" "CMakeFiles/loganalyser.dir/src/parsers/log_parser.c.o" "gcc" "CMakeFiles/loganalyser.dir/src/parsers/log_parser.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

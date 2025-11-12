@@ -85,6 +85,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build//CMakeFiles/progress.marks
@@ -117,24 +162,96 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LogAnalyser
+# Target rules for targets named loganalyser
 
 # Build rule for target.
-LogAnalyser: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LogAnalyser
-.PHONY : LogAnalyser
+loganalyser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 loganalyser
+.PHONY : loganalyser
 
 # fast build rule for target.
-LogAnalyser/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogAnalyser.dir/build.make CMakeFiles/LogAnalyser.dir/build
-.PHONY : LogAnalyser/fast
+loganalyser/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/build
+.PHONY : loganalyser/fast
+
+src/analyzers/analyzer.o: src/analyzers/analyzer.c.o
+.PHONY : src/analyzers/analyzer.o
+
+# target to build an object file
+src/analyzers/analyzer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/analyzers/analyzer.c.o
+.PHONY : src/analyzers/analyzer.c.o
+
+src/analyzers/analyzer.i: src/analyzers/analyzer.c.i
+.PHONY : src/analyzers/analyzer.i
+
+# target to preprocess a source file
+src/analyzers/analyzer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/analyzers/analyzer.c.i
+.PHONY : src/analyzers/analyzer.c.i
+
+src/analyzers/analyzer.s: src/analyzers/analyzer.c.s
+.PHONY : src/analyzers/analyzer.s
+
+# target to generate assembly for a file
+src/analyzers/analyzer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/analyzers/analyzer.c.s
+.PHONY : src/analyzers/analyzer.c.s
+
+src/collectors/file_collector.o: src/collectors/file_collector.c.o
+.PHONY : src/collectors/file_collector.o
+
+# target to build an object file
+src/collectors/file_collector.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/collectors/file_collector.c.o
+.PHONY : src/collectors/file_collector.c.o
+
+src/collectors/file_collector.i: src/collectors/file_collector.c.i
+.PHONY : src/collectors/file_collector.i
+
+# target to preprocess a source file
+src/collectors/file_collector.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/collectors/file_collector.c.i
+.PHONY : src/collectors/file_collector.c.i
+
+src/collectors/file_collector.s: src/collectors/file_collector.c.s
+.PHONY : src/collectors/file_collector.s
+
+# target to generate assembly for a file
+src/collectors/file_collector.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/collectors/file_collector.c.s
+.PHONY : src/collectors/file_collector.c.s
+
+src/core/config.o: src/core/config.c.o
+.PHONY : src/core/config.o
+
+# target to build an object file
+src/core/config.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/core/config.c.o
+.PHONY : src/core/config.c.o
+
+src/core/config.i: src/core/config.c.i
+.PHONY : src/core/config.i
+
+# target to preprocess a source file
+src/core/config.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/core/config.c.i
+.PHONY : src/core/config.c.i
+
+src/core/config.s: src/core/config.c.s
+.PHONY : src/core/config.s
+
+# target to generate assembly for a file
+src/core/config.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/core/config.c.s
+.PHONY : src/core/config.c.s
 
 src/help.o: src/help.c.o
 .PHONY : src/help.o
 
 # target to build an object file
 src/help.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogAnalyser.dir/build.make CMakeFiles/LogAnalyser.dir/src/help.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/help.c.o
 .PHONY : src/help.c.o
 
 src/help.i: src/help.c.i
@@ -142,7 +259,7 @@ src/help.i: src/help.c.i
 
 # target to preprocess a source file
 src/help.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogAnalyser.dir/build.make CMakeFiles/LogAnalyser.dir/src/help.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/help.c.i
 .PHONY : src/help.c.i
 
 src/help.s: src/help.c.s
@@ -150,7 +267,7 @@ src/help.s: src/help.c.s
 
 # target to generate assembly for a file
 src/help.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogAnalyser.dir/build.make CMakeFiles/LogAnalyser.dir/src/help.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/help.c.s
 .PHONY : src/help.c.s
 
 src/main.o: src/main.c.o
@@ -158,7 +275,7 @@ src/main.o: src/main.c.o
 
 # target to build an object file
 src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogAnalyser.dir/build.make CMakeFiles/LogAnalyser.dir/src/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -166,7 +283,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogAnalyser.dir/build.make CMakeFiles/LogAnalyser.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -174,8 +291,32 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogAnalyser.dir/build.make CMakeFiles/LogAnalyser.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/parsers/log_parser.o: src/parsers/log_parser.c.o
+.PHONY : src/parsers/log_parser.o
+
+# target to build an object file
+src/parsers/log_parser.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/parsers/log_parser.c.o
+.PHONY : src/parsers/log_parser.c.o
+
+src/parsers/log_parser.i: src/parsers/log_parser.c.i
+.PHONY : src/parsers/log_parser.i
+
+# target to preprocess a source file
+src/parsers/log_parser.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/parsers/log_parser.c.i
+.PHONY : src/parsers/log_parser.c.i
+
+src/parsers/log_parser.s: src/parsers/log_parser.c.s
+.PHONY : src/parsers/log_parser.s
+
+# target to generate assembly for a file
+src/parsers/log_parser.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loganalyser.dir/build.make CMakeFiles/loganalyser.dir/src/parsers/log_parser.c.s
+.PHONY : src/parsers/log_parser.c.s
 
 # Help Target
 help:
@@ -184,14 +325,30 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... LogAnalyser"
+	@echo "... loganalyser"
+	@echo "... src/analyzers/analyzer.o"
+	@echo "... src/analyzers/analyzer.i"
+	@echo "... src/analyzers/analyzer.s"
+	@echo "... src/collectors/file_collector.o"
+	@echo "... src/collectors/file_collector.i"
+	@echo "... src/collectors/file_collector.s"
+	@echo "... src/core/config.o"
+	@echo "... src/core/config.i"
+	@echo "... src/core/config.s"
 	@echo "... src/help.o"
 	@echo "... src/help.i"
 	@echo "... src/help.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/parsers/log_parser.o"
+	@echo "... src/parsers/log_parser.i"
+	@echo "... src/parsers/log_parser.s"
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
-CMakeFiles/loganalyser.dir/src/help.c.o: \
-  /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/src/help.c \
+CMakeFiles/loganalyser.dir/src/analyzers/analyzer.c.o: \
+  /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/src/analyzers/analyzer.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
@@ -37,4 +37,11 @@ CMakeFiles/loganalyser.dir/src/help.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_common.h \
-  /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/include/help.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
+  /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/include/analyzer.h

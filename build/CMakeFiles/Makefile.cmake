@@ -48,5 +48,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/LogAnalyser.dir/DependInfo.cmake"
+  "CMakeFiles/loganalyser.dir/DependInfo.cmake"
   )

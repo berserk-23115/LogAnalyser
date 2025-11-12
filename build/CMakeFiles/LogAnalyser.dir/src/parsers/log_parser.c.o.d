@@ -1,5 +1,5 @@
-CMakeFiles/loganalyser.dir/src/main.c.o: \
-  /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/src/main.c \
+CMakeFiles/loganalyser.dir/src/parsers/log_parser.c.o: \
+  /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/src/parsers/log_parser.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
@@ -90,13 +90,9 @@ CMakeFiles/loganalyser.dir/src/main.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/include/help.h \
-  /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/include/collector.h \
   /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/include/parser.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h \
-  /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/include/analyzer.h \
-  /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/include/config.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h
