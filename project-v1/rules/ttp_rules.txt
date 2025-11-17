@@ -1,0 +1,27 @@
+# TTP (Tactics, Techniques, Procedures) Rules
+# Correlation rules for detecting multi-stage attacks
+
+# Reconnaissance followed by exploitation
+rule:recon_exploit
+pattern1:port_scan
+pattern2:connection_attempt
+timewindow:300
+severity:3
+description:Port scan followed by connection attempts
+
+# Brute force followed by successful login
+rule:bruteforce_success
+pattern1:failed_login
+pattern2:successful_login
+threshold:5
+timewindow:600
+severity:4
+description:Multiple failed logins followed by success
+
+# Data exfiltration pattern
+rule:data_exfil
+pattern1:large_outbound
+pattern2:encrypted_traffic
+volume_threshold:10MB
+severity:4
+description:Large volume encrypted outbound traffic

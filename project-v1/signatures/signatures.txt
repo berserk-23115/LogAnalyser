@@ -1,0 +1,18 @@
+# Threat Signature Database
+# Format: Name|Pattern|Description|Severity(0-4)|Confidence(0-100)
+
+SSH Brute Force|Failed password|Multiple failed SSH authentication attempts|3|85
+SQL Injection|' OR '1'='1|SQL injection attempt detected|4|90
+SQL Injection|UNION SELECT|SQL UNION-based injection|4|90
+XSS Attack|<script>|Cross-site scripting attempt|3|85
+Port Scan|SYN_SCAN|Network port scanning activity|2|75
+Directory Traversal|../|Path traversal attack attempt|3|80
+Command Injection|; rm -rf|Command injection attempt|4|95
+Unauthorized Access|Access denied|Unauthorized access attempt|3|80
+Privilege Escalation|sudo -|Privilege escalation attempt|3|85
+Malware C2|C2_SERVER|Communication with C&C server|4|95
+DDoS Attack|SYN_FLOOD|SYN flood DDoS attack|3|90
+Credential Stuffing|invalid user|Invalid user login attempt|2|70
+File Upload Attack|.php|Suspicious file upload|3|75
+XXE Attack|<!ENTITY|XML external entity attack|3|85
+CSRF Attack|csrf_token|Cross-site request forgery|2|70

@@ -1,0 +1,17 @@
+/Users/anushkkumar/Downloads/Project_Aks/build/CMakeFiles/loganalyser_core.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/CMakeFiles/loganalyser.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/CMakeFiles/test.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/CMakeFiles/edit_cache.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/CMakeFiles/rebuild_cache.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/CMakeFiles/list_install_components.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/CMakeFiles/install.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/CMakeFiles/install/local.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/CMakeFiles/install/strip.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/tests/CMakeFiles/test_loganalyser.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/tests/CMakeFiles/test.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/tests/CMakeFiles/edit_cache.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/tests/CMakeFiles/rebuild_cache.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/tests/CMakeFiles/list_install_components.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/tests/CMakeFiles/install.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/tests/CMakeFiles/install/local.dir
+/Users/anushkkumar/Downloads/Project_Aks/build/tests/CMakeFiles/install/strip.dir

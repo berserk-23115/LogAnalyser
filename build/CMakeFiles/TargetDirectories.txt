@@ -1,7 +1,0 @@
-/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles/loganalyser.dir
-/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles/edit_cache.dir
-/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles/rebuild_cache.dir
-/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles/list_install_components.dir
-/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles/install.dir
-/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles/install/local.dir
-/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/build/CMakeFiles/install/strip.dir
