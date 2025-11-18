@@ -1,0 +1,2 @@
+log_analyzer_tests 2 0.249272
+---

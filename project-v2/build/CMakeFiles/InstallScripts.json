@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/project-v2/build/cmake_install.cmake",
+		"/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/project-v2/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

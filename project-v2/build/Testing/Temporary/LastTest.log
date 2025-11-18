@@ -1,0 +1,19 @@
+Start testing: Nov 18 17:09 IST
+----------------------------------------------------------
+1/1 Testing: log_analyzer_tests
+1/1 Test: log_analyzer_tests
+Command: "/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/project-v2/build/tests/test_log_analyzer"
+Directory: /Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/project-v2/build/tests
+"log_analyzer_tests" start time: Nov 18 17:09 IST
+Output:
+----------------------------------------------------------
+All log analyzer tests passed.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"log_analyzer_tests" end time: Nov 18 17:09 IST
+"log_analyzer_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 18 17:09 IST

@@ -1,0 +1,9 @@
+/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/project-v2/build/CMakeFiles/loganalyzer.dir
+/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/project-v2/build/CMakeFiles/loganalyser.dir
+/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/project-v2/build/CMakeFiles/test.dir
+/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/project-v2/build/CMakeFiles/edit_cache.dir
+/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/project-v2/build/CMakeFiles/rebuild_cache.dir
+/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/project-v2/build/tests/CMakeFiles/test_log_analyzer.dir
+/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/project-v2/build/tests/CMakeFiles/test.dir
+/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/project-v2/build/tests/CMakeFiles/edit_cache.dir
+/Users/anushkkumar/Desktop/LogAnalyser/LogAnalyser/project-v2/build/tests/CMakeFiles/rebuild_cache.dir

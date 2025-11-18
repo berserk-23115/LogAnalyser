@@ -1,0 +1,2 @@
+/usr/bin/ar qc libloganalyzer.a CMakeFiles/loganalyzer.dir/src/log_analyzer.c.o CMakeFiles/loganalyzer.dir/src/ddos_detector.c.o CMakeFiles/loganalyzer.dir/src/packet_capture.c.o
+/usr/bin/ranlib libloganalyzer.a
