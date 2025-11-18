@@ -47,7 +47,7 @@ export default function ProblemStatement() {
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
               Expected Solution
             </h3>
@@ -65,7 +65,7 @@ export default function ProblemStatement() {
               <p><span className="font-medium text-gray-900 dark:text-white">Interface:</span> Simple CLI for technical users</p>
               <p><span className="font-medium text-gray-900 dark:text-white">Offline:</span> No internet dependency required</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
