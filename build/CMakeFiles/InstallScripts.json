@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/anushkkumar/Downloads/project-v2/build/cmake_install.cmake",
+		"/Users/anushkkumar/Downloads/project-v2/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
